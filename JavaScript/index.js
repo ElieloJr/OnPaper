@@ -15,6 +15,7 @@ function carregaProdutos() {
     criaSection(cadernos, "Cadernos", listaDeCadernos)
     criaSection(canetas, "Canetas", listaDeCanetas)
     criaSection(estojos, "Estojos", listaDeEstojos)
+    criaSection(papeis, "Papeis", listaDePapeis)
     
 }
 

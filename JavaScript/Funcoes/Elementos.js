@@ -51,7 +51,7 @@ function criaPreco(text) {
     valor.innerHTML = `<sup>R$</sup>${text}`
 
     var button = elementoSemClass("button")
-    button.textContent = "Ver mais"
+    button.textContent = "Indisponível"
 
     divPreco.appendChild(valor)
     divPreco.appendChild(button)

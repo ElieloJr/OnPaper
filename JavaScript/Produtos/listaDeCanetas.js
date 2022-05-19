@@ -15,7 +15,7 @@ let listaDeCanetas = [
         "url": "https://m.media-amazon.com/images/I/51yuL4klmWL._AC_SL1080_.jpg"
     },
     { 
-        "nome": "Canetas Marcadoras Metálicas,Sailsbury Caneta de pincel metálico de 10 cores marcador de arte para papel preto pintura de pedra cartão fazendo scrapbooking caligra letras",
+        "nome": "Canetas Marcadoras Metálicas,Sailsbury Caneta de pincel metálico de 10 cores",
         "valor": "77,99",
         "url": "https://m.media-amazon.com/images/I/61LGS9Dr98L._AC_SL1000_.jpg"
     },

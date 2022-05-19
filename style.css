@@ -108,6 +108,7 @@ h2 {
 }
 .descricao{
     width: 94%;
+    height: 80px;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -120,7 +121,7 @@ h2 {
     height: 200px;
 }
 .preco{
-    display: flex;
+    display: block;
     align-items: flex-end;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -132,16 +133,17 @@ h2 {
     color: gray;
 }
 .valor {
-    padding-top: -10px;
+    float: left;
+    padding-top: -13px;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
 }
 sup {
     font-size: 15px;
 }
 .preco button{
-    background: rgb(255, 212, 21);
+    background: rgba(85, 85, 84, 0.829);
     color: #fff;
     width: 150px;
     height: 40px;
@@ -150,11 +152,13 @@ sup {
     border: none;
     font-size: 20px;
     font-weight: bolder;
-    margin-left: 30px;
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 .preco a{
     text-decoration: none;
 }
 .preco button:hover{
-    background-color:rgb(228, 190, 23);
+    background-color:rgb(85, 85, 84);
 }

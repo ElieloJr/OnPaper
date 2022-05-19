@@ -11,5 +11,6 @@ function elementoComClass(elemento, classe) {
 function tituloDaSection(titulo) {
     var nomeSection = elementoSemClass("h2")
     nomeSection.innerText = titulo
+    nomeSection.id = titulo
     return nomeSection
 }

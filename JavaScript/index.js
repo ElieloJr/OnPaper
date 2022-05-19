@@ -11,10 +11,6 @@ var bolsas = elementoComClass("section", "box-produto")
 
 function carregaProdutos() {
     // Altera o zoom da Página
-    // var scale = 'scale(0.7)';
-    // pagina.style.webkitTransform =  scale;    // Chrome, Opera, Safari
-    // pagina.style.msTransform = 0.7;       // IE 9
-    // pagina.style.transform = scale; 
     pagina.style.zoom = 0.7
 
     // Configuração das Sections

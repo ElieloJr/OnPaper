@@ -2,7 +2,7 @@
 let pagina = document.body
 pagina.onload = carregaProdutos
 
-// Sessões
+// Criação das Sessões
 var cadernos = elementoComClass("section", "box-produto")
 var canetas = elementoComClass("section", "box-produto")
 var estojos = elementoComClass("section", "box-produto")
@@ -11,7 +11,7 @@ var bolsas = elementoComClass("section", "box-produto")
 
 function carregaProdutos() {
 
-    // Criação das Sections
+    // Configuração das Sections
     criaSection(cadernos, "Cadernos", listaDeCadernos)
     criaSection(canetas, "Canetas", listaDeCanetas)
     criaSection(estojos, "Estojos", listaDeEstojos)

@@ -18,33 +18,41 @@ body{
     display: block;
 }
 #menu {
-    float: right;
-    margin-top: 2rem;
-    vertical-align: auto;
+    float: left;
+    margin-top: 500px;
+    margin-left: -300px;
 }
 #logo {
     vertical-align: center;
     font-size: 80px;
-    padding-top: 30px;
+    padding-top: 150px;
     padding-left: 20px;
     padding-bottom: 10px;
     width: 300px;
     float: left;
     color: white;
+    text-transform: uppercase;
 }
 #menu ul{
     display: flex;
     justify-content: center;
-    padding-right: 80px;
     text-transform: uppercase;
     cursor: pointer;
 }
 #menu ul li{
     list-style-type: none;
-    padding-right: 2rem;
+    margin: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
+    border-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
 }
 .filtro {
     background-color: rgba(252, 193, 1, 0.753);

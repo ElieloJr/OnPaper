@@ -14,3 +14,7 @@ function tituloDaSection(titulo) {
     nomeSection.id = titulo
     return nomeSection
 }
+
+function scrollUp() {
+    window.scrollBy(0, -5000);
+}

@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     overflow-x: hidden;
@@ -161,4 +162,19 @@ sup {
 }
 .preco button:hover{
     background-color:rgb(85, 85, 84);
+}
+.up {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(252, 193, 1);
+    background-image: url("img/arrowUp.png");
+    background-size: cover;
+    border-radius: 50px;
+    border: none;
+    right: 3rem;
+    position: fixed;
+    bottom: 2rem;
+}
+.up:hover {
+    background-color: rgba(252, 193, 1, 0.753);
 }
